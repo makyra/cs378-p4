@@ -59,7 +59,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <img src="/logo_weather.png"></img>
+      <img src={`${process.env.PUBLIC_URL}/logo_weather.png`}></img>
       <h1>How's the weather today?</h1>
       <div className="city-buttons">
         {/*Iterate through city list and make city buttons*/}
